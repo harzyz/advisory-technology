@@ -1,0 +1,43 @@
+.wrapper{
+  width: 100%;
+  height: 128px;
+  padding: 0px 80px;
+  background-color: #3C3C3C;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #FFF;
+}
+.wrapper h1{
+  font-family: 'Sarpanch';
+  font-size: 29px;
+  font-weight: 500;
+}
+.wrapper p{
+  font-size: 'Inter';
+  font-size: 18px;
+}
+.callbtn{
+  background-color: #FA434A;
+  border: none;
+  width: 216px;
+  height: 62px;
+  color: #FFF;
+  font-family: 'Inter';
+  font-size: 16px;
+}
+@media screen and (max-width: 450px) {
+  .wrapper{
+    flex-direction: column;
+    height: 100%;
+    justify-content: unset;
+    padding: 20px 10px;
+    text-align: center;
+  }
+  .wrapper h1{
+    font-size: 14px;
+  }
+  .wrapper p{
+    font-size: 14px;
+  }
+}

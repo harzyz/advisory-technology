@@ -1,24 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import CallToAction from './components/callToAction/callToAction';
+import Footer from './components/footer/footer';
+import Herosection from './components/heroSection/herosection';
+import MeetOurTeam from './components/meetOurTeam/meetOurTeam';
+import ReachOutToUs from './components/reachOutToUs/reachOutToUs';
+import WhatWeDo from './components/whatWeDo/whatWeDo';
+import WhoAreWe from './components/whoAreWe/whoAreWe';
+import WhyChooseUs from './components/whyChooseUs/whyChooseUs';
+import './index.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main>
+      <Herosection />
+      <WhoAreWe />
+      <WhatWeDo />
+      <CallToAction />
+      <WhyChooseUs />
+      <MeetOurTeam />
+      <ReachOutToUs />
+      <Footer />
+    </main>
   );
 }
 
