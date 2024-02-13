@@ -17,7 +17,7 @@ const Herosection = () => {
   }
 
   return (
-    <section className={styles.wrapper}>
+    <section id='home' className={styles.wrapper}>
       <div className={styles.contact}>
         <div className={styles.phoneTime}>
           <div className={styles.phonumber}>
@@ -38,11 +38,11 @@ const Herosection = () => {
       <nav className={styles.navbar}>
         <p>FINANCIAL TECHNOLOGY ADVISORS</p>
         <ul className={hamburgerMenu ? styles.navlist : styles.close}>
-          <li>HOME</li>
-          <li>CLIENTS</li>
-          <li>PARTNERS</li>
-          <li>SERVICES</li>
-          <li>CONTACT</li>
+          <a href="#home"><li>HOME</li></a>
+          <a href="#clients"><li>CLIENTS</li></a>
+          <a href="#partners"><li>PARTNERS</li></a>
+          <a href="#services"><li>SERVICES</li></a>
+          <a href="#contact"><li>CONTACT</li></a>
           <IoCloseCircleOutline onClick={toggleClose} className={styles.closeIcon} />
         </ul>
         <GiHamburgerMenu onClick={toggleOpen} className={styles.hamburgermenu} />

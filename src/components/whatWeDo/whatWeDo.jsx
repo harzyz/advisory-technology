@@ -3,7 +3,7 @@ import whatWeDoData from './whatWeDoData'
 
 const WhatWeDo = () => {
   return (
-    <section className={styles.wrapper}>
+    <section id='services' className={styles.wrapper}>
       <h1>WHAT WE DO</h1>
       <p>FTA IS DEDICATED TO SEEING YOU CHOOSE THE RIGHT TECHNOLOGY STRATEGY ENSURING YOU MAINTAIN A COMPETITIVE EDGE OVER YOUR PEERS</p>
       <div className={styles.services}>

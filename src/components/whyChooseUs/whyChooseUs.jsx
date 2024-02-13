@@ -7,7 +7,7 @@ const WhyChooseUs = () => {
   const word = 'A trust is a way of managing assets [money,investments ,land or buildings] for people -types of trust how they are taxed where to get helpA trust is a way of managing assets [money, investments, land or buildings] for people -types of trust how they are taxed where to get help'
 
   return (
-    <section className={styles.wrapper}>
+    <section id='clients' className={styles.wrapper}>
       <div className={styles.smillingMan}>
         <img src={smillingMan} alt="smillingman" />
       </div>

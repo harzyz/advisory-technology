@@ -3,7 +3,7 @@ import MeetOurTeamData from "./meetOurTeamData";
 
 const MeetOurTeam = () => {
   return (
-    <section className={styles.wrapper}>
+    <section id="partners" className={styles.wrapper}>
       <h1>MEET OUR TEAM</h1>
       <div>
         <p>Its all about people </p>

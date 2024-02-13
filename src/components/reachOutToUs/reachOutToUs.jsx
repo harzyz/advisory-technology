@@ -2,7 +2,7 @@ import styles from './reachOutToUs.module.css'
 
 const ReachOutToUs = () => {
   return (
-    <section className={styles.wrapper}>
+    <section id='contact' className={styles.wrapper}>
       <div className={styles.reachout}>
         <h1>REACH OUT TO US</h1>
         <p>Lorem ipsum dolor sit amet consectetur. Ligula ac orci ut ac cursus pulvinar. Eget at mauris tempor tempor mollis nisl. Viverra at sed nibh ullamcorper lobortis cras velit nunc lectus. Aenean ornare i</p>
